@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+   <span>Для нахождения корня.С начала нажать "√" потом число<br>
+   Для возведения в степень "^".С начала число,пото в какую степень</span>
+   <div class="container">
+      <div class="item input" ><form name="form"><input id="display" value="0" type="text"  name="textView" readonly></form></div>
+      <div class="item clean clear_btn" id="c">C</div>
+      <div class="item back " onclick="back()" >&larr;</div>
+      <div class="item operation" >+</div>
+      <div class="item operation">-</div>
+      <div class="item operation">*</div>
+      <div class="item operation" >/</div>
+      <div class="item number" >7</div>
+      <div class="item number" >8</div>
+      <div class="item number" >9</div>
+      <div class="item " >(</div>
+      <div class="item number" >4</div>
+      <div class="item number">5</div>
+      <div class="item number" >6</div>
+      <div class="item " >)</div>
+      <div class="item number" >1</div>
+      <div class="item number" >2</div>
+      <div class="item number" >3</div>
+      <div class="item  operation "id="btnSqrt"  >√</div>
+      <div class="item number " >0</div>
+      <div class="item " id="decimal">.</div>
+      <div class="item operation " id="result" >=</div> 
+      <div class="item operation"  >^</div> 
+   </div> 
+  </div>
+</body>
+</html>
